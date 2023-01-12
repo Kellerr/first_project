@@ -1,0 +1,21 @@
+<div class="main">
+  <div class="center">
+    <mat-card class="box">
+        <mat-toolbar>Login Page</mat-toolbar>
+        <form  class="form" [formGroup]="formGroup" (ngSubmit)="loginProces()">
+            <mat-form-field class="type" >
+              <mat-label>Nome do Usuário</mat-label>
+              <input matInput placeholder="" formControlName="email">
+            </mat-form-field>
+          
+            <mat-form-field class="type-2">
+                <mat-label >Senha</mat-label>
+                <input matInput type="password" placeholder="" formControlName="password">
+              </mat-form-field>
+              
+              <button mat-raised-button type="submit" class="btn"><a routerLink="/dashboard">Login</a></button>
+              
+          </form>
+    </mat-card>
+  </div>
+  </div>

@@ -1,0 +1,40 @@
+.main mat-card {
+    display: flex;
+    padding: 0px;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+    padding-left: 35%;
+    padding-top: 13%;
+
+}
+
+.box{
+    width: 30rem;
+    height: 17rem;
+    position: absolute;
+    
+}
+
+.type
+{
+    width: 86%;
+    padding-top: 2rem;
+}
+
+.type-2
+{
+
+    width: 86%;
+}
+
+.btn {
+    width: 86%;
+}
+
+.form{
+    align-content: stretch;
+    flex-direction: column;
+}
